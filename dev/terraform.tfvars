@@ -1,5 +1,5 @@
 AWS_REGION = "us-east-1"
-AWS_PROFILE = "default"
+AWS_PROFILE = "sandbox-rw-033545611835"
 vpc_name = "dev"
 vpc_cidr = "172.16.0.0/16"
 public_subnet_cidrs = ["172.16.1.0/24", "172.16.2.0/24", "172.16.3.0/24"]
