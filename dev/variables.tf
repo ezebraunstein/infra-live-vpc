@@ -3,11 +3,6 @@ variable "AWS_REGION" {
   type        = string
 }
 
-variable "AWS_PROFILE" {
-  description = "The AWS CLI profile to use"
-  type        = string
-}
-
 variable "vpc_name" {
   description = "Name of the VPC for the environment"
   type        = string
