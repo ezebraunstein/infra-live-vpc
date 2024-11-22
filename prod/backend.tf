@@ -3,6 +3,6 @@ terraform {
     bucket         = "lock-state-bucket-vpc-craftech"
     key            = "prod/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-locks"
+    dynamodb_table = "terraform-locks-vpc"
   }
 }
